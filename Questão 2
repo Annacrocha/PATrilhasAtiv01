@@ -1,0 +1,18 @@
+using System;
+
+namespace Atividade01
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+		Console.WriteLine("Digite um número real:");
+		double numReal = Convert.ToDouble(Console.ReadLine());
+			Console.WriteLine("O número real digitado é: " + numReal);
+	
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
