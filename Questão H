@@ -1,0 +1,23 @@
+using System;
+
+namespace attv
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digite o preço de um produto:");
+				double preco = Convert.ToDouble(Console.ReadLine());
+			Console.WriteLine("Digite o seu desconto:");
+				double desconto = Convert.ToDouble(Console.ReadLine());
+				
+				double valorDesconto = preco * desconto / 100;
+				double total = preco - valorDesconto;
+				
+				Console.WriteLine("O preço total com desconto é: " + total);
+					
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
